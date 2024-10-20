@@ -31,6 +31,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,ListaProdutoActivity::class.java)
             startActivity(intent)
         }
-        //teste
+
         }
     }
