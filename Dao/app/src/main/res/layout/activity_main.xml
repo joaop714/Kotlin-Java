@@ -14,33 +14,27 @@
         android:layout_height="48dp"
         android:backgroundTint="#085603"
         android:ems="10"
-        android:hint="Nome Produto"
+        android:hint="NomeProduto"
         android:inputType="text"
         android:minHeight="48dp"
-        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.355" />
+        app:layout_constraintVertical_bias="0.317" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_volta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
         android:layout_marginBottom="48dp"
-        android:clickable="false"
-        android:contentDescription="@string/fab_transformation_scrim_behavior"
+        android:clickable="true"
         android:src="@android:drawable/ic_dialog_dialer"
         app:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.873"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_salvar"
-        app:layout_constraintVertical_bias="1.0"
-        tools:srcCompat="@drawable/ic_launcher_background" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/btn_salvar"
@@ -58,17 +52,17 @@
         android:id="@+id/edt_preco_produto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginBottom="392dp"
         android:height="48dp"
         android:backgroundTint="#085603"
         android:ems="10"
         android:hint="@string/r_00_00"
         android:inputType="numberDecimal"
-        android:minHeight="48dp"
-
-        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edt_nome_produto" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_nome_produto"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
